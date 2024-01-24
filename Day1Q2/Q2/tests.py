@@ -1,7 +1,7 @@
 # tests.py in your app folder (e.g., Q2/tests.py)
 from django.test import RequestFactory
 from django.urls import reverse
-#from .views import greet_user
+from Q2.views import greet_user
 
 def test_greet_user_default_name():
     try:
