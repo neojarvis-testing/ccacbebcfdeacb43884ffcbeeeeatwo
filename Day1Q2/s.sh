@@ -2,4 +2,5 @@ cp /home/coder/project/workspace/pytest/tests.py /home/coder/project/workspace/D
 echo "line one"
 cd /home/coder/project/workspace/Day1Q2/Q2
 echo "line one"
-python3 manage.py test -v 0
+pip install pytest-django
+pytest tests.py
